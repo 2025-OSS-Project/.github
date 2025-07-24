@@ -1,6 +1,7 @@
 ---
 name: 🐛 버그 수정 (Bug Fix)
 about: feat 브랜치에서 발생한 버그를 수정할 때 이 템플릿을 선택하세요.
+labels: "bug"
 ---
 
 ## 🐛 PR 목적 (버그 수정)

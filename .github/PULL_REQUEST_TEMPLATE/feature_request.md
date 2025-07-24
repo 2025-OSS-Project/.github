@@ -1,6 +1,7 @@
 ---
-name: ✨ 신규 기능 (Feature)
+name: ✨ 신규 기능 (Feature request)
 about: feat 브랜치에서 새로운 기능을 구현할 때 이 템플릿을 선택하세요.
+labels: enhancement
 ---
 
 ## ✨ PR 목적 (신규 기능)
