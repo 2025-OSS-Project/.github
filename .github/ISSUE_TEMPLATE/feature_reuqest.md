@@ -2,7 +2,7 @@
 name: "💡 신규 기능 요청(Feature Request)"
 about: "새로운 기능을 제안할 때 사용하세요."
 title: "[FEAT] 간단한 요약"
-labels: enhancement
+labels: "enhancement"
 assignees: ""
 ---
 
