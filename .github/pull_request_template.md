@@ -1,11 +1,3 @@
----
-name: "🔀 통합 PR 템플릿"
-about: "버그 수정 및 신규 기능 구현에 모두 사용하세요."
-title: "[TYPE] 간단한 요약"
-labels: ""
-assignees: ""
----
-
 ## 🔀 PR 유형
 - [ ] FIX (버그 수정)
 - [ ] FEAT (신규 기능)
