@@ -1,15 +1,19 @@
 # GeoMemo — 위치 기반 감정 기록 & 인사이트 플랫폼
 
-> **“어디에서 어떤 감정을 느꼈는가?”**
+> **“어디에서 어떤 감정을 느꼈는가?”**  
 > 장소·시간과 연결된 감정/메모를 기록하고, **맵/타임라인/리포트**로 시각화하여 **나의 감정 패턴**을 발견합니다. 재방문 시에는 **과거의 나**를 스마트하게 리마인드합니다.
 
-
 <p>
-  <a href="https://github.com/2025-OSS-Project"><img alt="Org Stars" src="https://img.shields.io/badge/Stars-⭐️%20Give%20us%20a%20star!-brightgreen"></a>
-  <a href="https://github.com/2025-OSS-Project"><img alt="PRs Welcome" src="https://img.shields.io/badge/PRs-welcome-blue"></a>
-  <a href="https://github.com/2025-OSS-Project"><img alt="License" src="https://img.shields.io/badge/License-Apache--2.0-informational"></a>
+  <a href="https://github.com/2025-OSS-Project">
+    <img alt="Org Stars" src="https://img.shields.io/badge/Stars-⭐️%20Give%20us%20a%20star!-brightgreen">
+  </a>
+  <a href="https://github.com/2025-OSS-Project">
+    <img alt="PRs Welcome" src="https://img.shields.io/badge/PRs-welcome-blue">
+  </a>
+  <a href="https://github.com/2025-OSS-Project/.github/blob/main/LICENSE">
+    <img alt="License" src="https://img.shields.io/badge/License-Apache--2.0-informational">
+  </a>
 </p>
-
 
 ---
 
@@ -26,7 +30,7 @@
 
 ## 💡 왜 GeoMemo 인가?
 
-* 감정은 **상황과 장소**에 깊게 묶여 있습니다. GeoMemo는 감정을 \*\*컨텍스트(위치×시간)\*\*와 함께 저장해 **의미 있는 패턴**을 드러냅니다.
+* 감정은 **상황과 장소**에 깊게 묶여 있습니다. GeoMemo는 **컨텍스트(위치×시간)**와 함께 저장해 **의미 있는 패턴**을 드러냅니다.
 * “이 카페에서 자주 불안을 느낀다” 같은 **자각**은 **루틴 개선**과 **스트레스 관리**로 이어집니다.
 * 시간에 따라 쌓이는 데이터로 **나만의 웰빙·생산성 지표**를 만들 수 있습니다.
 
@@ -43,32 +47,26 @@
 ## 🔎 핵심 기능(Feature-centric)
 
 ### 1) 감정·메모 기록
-
 * 위치 자동 태깅, 감정 선택(이모지/스케일), 텍스트/사진 첨부
 * 오프라인 기록 후 **온라인 동기화**
 
 ### 2) 시각화 대시보드
-
 * **맵 히트맵**: 감정 강도의 공간 분포
 * **타임라인/캘린더**: 시간 흐름에 따른 변동
 * **장소 카드**: 상위 장소/키워드/대표 감정 요약
 
 ### 3) 인사이트 & 추천
-
 * **장소 클러스터링**(유사 장소 묶음)과 감정 분포 분석
 * 반복 패턴/특이값 감지(예: 특정 요일·시간대의 변동)
 
 ### 4) 재방문 리마인드
-
 * 지오펜싱/최근 위치 이벤트 기반 **자동 리마인드**
 * 최근 n회 방문 요약 + 미니 제안(메모, 루틴, 휴식 팁 등)
 
 ### 5) 리포트
-
 * 일·주·월 단위 **자동 리포트** (추세/하이라이트/추천 루틴)
 
 ### 6) 프라이버시 & 데이터 권리
-
 * 좌표 **격자화/익명화** 옵션
 * **내보내기/완전 삭제** 제공 (내 데이터의 **소유권** 보장)
 
@@ -76,45 +74,52 @@
 
 ## 🗺️ 프로젝트 맵(빠른 이동)
 
-* **모바일 앱(Frontend)** — Expo/React Native 기반
-* **API 서버(Backend)** — FastAPI 기반, 인증/CRUD/리포트
-* **AI 분석(AI)** — 감정 분류·키워드·클러스터링
+* **모바일 앱(Frontend)** — Expo/React Native 기반  
+  → [GeoMemo-Frontend](https://github.com/2025-OSS-Project/GeoMemo-Frontend)
+* **API 서버(Backend)** — FastAPI 기반, 인증/CRUD/리포트  
+  → [GeoMemo-Backend](https://github.com/2025-OSS-Project/GeoMemo-Backend)
+* **AI 분석(AI)** — 감정 분류·키워드·클러스터링  
+  → [GeoMemo-AI](https://github.com/2025-OSS-Project/GeoMemo-AI)
 
-> 각 레포 링크는 조직 구조에 맞게 연결하세요. (예: `2025-OSS-Project/GeoMemo-Frontend`, `…-Backend`, `…-AI`)
-
-| 영역       | 설명                   | 바로가기                |
-| -------- | -------------------- | ------------------- |
-| Frontend | 기록/시각화 모바일 앱         | 🔗 GeoMemo-Frontend |
-| Backend  | REST API, 인증, 리포트 생성 | 🔗 GeoMemo-Backend  |
-| AI       | 감정 분석·추천 모듈          | 🔗 GeoMemo-AI       |
+| 영역       | 설명                   | 바로가기 |
+|-----------|------------------------|---------|
+| Frontend  | 기록/시각화 모바일 앱  | [🔗 GeoMemo-Frontend](https://github.com/2025-OSS-Project/GeoMemo-Frontend) |
+| Backend   | REST API, 인증, 리포트 | [🔗 GeoMemo-Backend](https://github.com/2025-OSS-Project/GeoMemo-Backend)  |
+| AI        | 감정 분석·추천 모듈    | [🔗 GeoMemo-AI](https://github.com/2025-OSS-Project/GeoMemo-AI)            |
 
 ---
 
 ## 🧭 사용 방법(개요)
 
-1. **앱 설치/실행** → 위치 권한 및 알림 설정
-2. **첫 기록 남기기** → 감정 선택 + 메모/사진
-3. **대시보드 열기** → 맵/타임라인/캘린더로 패턴 확인
-4. **리포트 받아보기** → 일·주·월 요약 리포트
+1. **앱 설치/실행** → 위치 권한 및 알림 설정  
+2. **첫 기록 남기기** → 감정 선택 + 메모/사진  
+3. **대시보드 열기** → 맵/타임라인/캘린더로 패턴 확인  
+4. **리포트 받아보기** → 일·주·월 요약 리포트  
 5. **재방문 리마인드** → 과거 기록과 제안 확인
 
 > 상세 설치/실행은 각 레포의 README를 참고하세요.
+
+---
+
+## 🛣️ 로드맵(요약)
+
+* **v0.1 (MVP)**: 기본 기록, 맵·타임라인, 주간 리포트  
+* **v0.2**: 장소 클러스터링, 재방문 리마인드, 감정 추세 시각화  
+* **v0.3**: 개인화 추천(휴식/루틴/리추얼), PDF 내보내기  
+* **v0.4**: 다국어/접근성 강화, 선택적 소셜 공유
+
 ---
 
 ## 🤝 커뮤니티 & 기여
 
-* **PR 환영 / Issues 환영** — 첫 기여는 `good first issue`부터!
-* **토론·아이디어 제안** — Discussions 활용
+* **PR 환영 / Issues 환영** — 첫 기여는 `good first issue`부터!  
+* **토론·아이디어 제안** — Discussions 활용  
 * **가이드** — `CONTRIBUTING.md`, `CODE_OF_CONDUCT.md` 를 따릅니다
-
-> 조직 메인에 **고정(Pin) 저장소**를 최대 6개까지 노출해 신규 방문자의 탐색을 돕는 것을 권장합니다(공개/멤버 뷰 각각 6개). ([GitHub Docs][1])
 
 ---
 
 ## 🔐 개인정보·보안
 
-* 데이터는 사용자 통제 하에 있습니다.
-* 익명화/격자화/내보내기/완전 삭제를 지원합니다.
+* 데이터는 사용자 통제 하에 있습니다.  
+* 익명화/격자화/내보내기/완전 삭제를 지원합니다.  
 * 취약점 제보는 Security Policy 또는 보안 메일로 부탁드립니다.
-
----
