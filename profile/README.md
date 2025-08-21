@@ -2,7 +2,7 @@
 
 > **“어디에서 어떤 감정을 느꼈는가?”**  
 > 장소·시간과 연결된 감정/메모를 기록하고, **맵/타임라인/리포트**로 시각화하여 **나의 감정 패턴**을 발견합니다. 재방문 시에는 **과거의 나**를 스마트하게 리마인드합니다.
-<br>
+><br>
 > 다운로드 링크: https://github.com/2025-OSS-Project/GeoMemo-Frontend/releases/tag/v1.0.0
 <p>
   <a href="https://github.com/2025-OSS-Project">
